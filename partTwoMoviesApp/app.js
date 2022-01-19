@@ -37,6 +37,7 @@ $(document).ready(() => {
 	});
 
 	function sortMovie(sortBy) {
+		//SortMovie function adpated from https://www.onemoretake.com/2009/02/25/sorting-elements-with-jquery/
 		let $moviesDiv = $("#moviesDiv");
 		let allMoviesArray = $moviesDiv.children().get();
 		allMoviesArray.sort((a, b) => {
